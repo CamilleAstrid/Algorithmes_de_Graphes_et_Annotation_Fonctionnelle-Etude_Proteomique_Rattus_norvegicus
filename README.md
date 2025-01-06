@@ -19,6 +19,7 @@ Il fournit des fonctionnalités pour charger, explorer et analyser les relations
 Algorithmes_de_Graphes_et_Annotation_Fonctionnelle-Etude_Proteomique_Rattus_norvegicus
 * `README.md` : Documentation du projet
 * `LICENSE` : License appliquée à l'ensemble du projet
+* `rapport_projet_Graph_R.norvegicus_RODRIGUES.pdf` : Rapport d'ingénierie sur les outils développés.
 * **scripts/** : Dossier abritant l'ensemble des fichiers python
   * `geneontology.py` : Code pour les analyses spécifiques à la Gene Ontology
   * `graphmaster.py` : Bibliothèque générique de manipulation de graphes
@@ -26,6 +27,9 @@ Algorithmes_de_Graphes_et_Annotation_Fonctionnelle-Etude_Proteomique_Rattus_norv
 * **data/** : Dossier regroupant les données utilisées pour l'analyse de _Rattus norgevicus_ et pour les tests effectués.
   * `go-basic.obo` : Exemple de fichier OBO pour la Gene Ontology
   * `122.R_norvegicus.txt` : Fichier contenant un lien vers le fichier GOA pour les annotations de _Rattus norvegicus_
+  * `test_protein_51145.txt` : Fichier contenant les informations pour créer un graphe à partir des données de la protéine 51145.
+  * `directed.graph.with.cycle.tsv` : Fichier contenant les informations pour charger le graphe simple figurant sur la représentation graphique `directed.graph.with.cycle.png`
+  * `uniprot_sars-cov-2.gaf` : Fichier au format GAF permettant de tester sur un jeu de données plus petit les programmes développés
 
 ## Prérequis
 * Python >= 3.8
