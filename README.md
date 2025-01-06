@@ -1,9 +1,9 @@
 # Algorithmes de Graphes et Annotation Fonctionnelle : Etude Proteomique de _Rattus norvegicus_
 Ce dépôt contient le code, les données et les résultats associés à l'analyse bioinformatique du protéome de _Rattus norvegicus_.
-Ce projet a été réalisé dans le cadre du Master 1 Bioinformatique et Biologie des Systèmes, année universitaire 2024-2025.
+Ce projet a été réalisé dans le cadre du Master 1 Bioinformatique et Biologie des Systèmes à l'Université Paul Sabatier Toulouse III, année universitaire 2024-2025.
 
 ## Description
-Ce repository contient des outils Python pour l'analyse et la manipulation des données de la Gene Ontology (GO), avec une application spécifique à l'organisme _Rattus norvegicus_.
+Ce répertoire contient des outils Python pour l'analyse et la manipulation des données de la Gene Ontology (GO), avec une application spécifique à l'organisme _Rattus norvegicus_.
 Il fournit des fonctionnalités pour charger, explorer et analyser les relations entre GeneProducts et GOTerms à partir de fichiers au format OBO et GAF/GOA.
 
 ## Fonctionnalités
