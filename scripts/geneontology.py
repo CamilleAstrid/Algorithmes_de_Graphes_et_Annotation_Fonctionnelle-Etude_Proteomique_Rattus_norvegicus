@@ -254,17 +254,16 @@ def predecessors(go:Graph, start_node):
 
 ##### main → tests #####
 if __name__ == "__main__":
-	try :
+	try:
 		filename_goa = sys.argv[1]
 	except:
 		# Check if the file exists, if not, download it
-		filename_goa = "122.R_norvegicus.goa"
+		filename_goa = "data/122.R_norvegicus.goa"
 		if not os.path.exists(filename_goa):
 			url = "http://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/122.R_norvegicus.goa"
-			print(f"File {filename_goa} not found.\nDownloading from {url}...")
+			print(f"File 122.R_norvegicus.goa not found in data/.\nDownloading from {url}...")
 			urllib.request.urlretrieve(url, filename_goa)
-			print(f"Downloaded {filename_goa}")
-		filename_goa = "122.R_norvegicus.goa"
+			print("Downloaded 122.R_norvegicus.goa")
 	
  	# Load Graph
     
