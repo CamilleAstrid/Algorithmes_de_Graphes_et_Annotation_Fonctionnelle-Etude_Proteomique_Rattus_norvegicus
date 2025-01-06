@@ -19,7 +19,7 @@ Il fournit des fonctionnalités pour charger, explorer et analyser les relations
 Algorithmes_de_Graphes_et_Annotation_Fonctionnelle-Etude_Proteomique_Rattus_norvegicus
 * `README.md` : Documentation du projet
 * `LICENSE` : License appliquée à l'ensemble du projet
-* **script/** : Dossier abritant l'ensemble des fichiers python
+* **scripts/** : Dossier abritant l'ensemble des fichiers python
   * `geneontology.py` : Code pour les analyses spécifiques à la Gene Ontology
   * `graphmaster.py` : Bibliothèque générique de manipulation de graphes
   * `test_graphmaster.py` : Tests unitaires pour la bibliothèque `graphmaster.py`
