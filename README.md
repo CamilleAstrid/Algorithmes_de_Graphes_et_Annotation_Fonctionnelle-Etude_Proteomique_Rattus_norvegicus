@@ -46,7 +46,7 @@ Algorithmes_de_Graphes_et_Annotation_Fonctionnelle-Etude_Proteomique_Rattus_norv
   ```bash
   python scripts/geneontology.py <input_file.GOA>
   ```
-  /!\ Si le fichier en input n'est pas renseigné, le fichier `122.R_norvegicus.goa` sera utilisé. S'il n'est pas présent à l'emplacement du programme, il sera téléchargé depuis l'url figurant dans le fichier `122.R_norvegicus.txt`.
+  /!\ Si le fichier en input n'est pas renseigné, le fichier `122.R_norvegicus.goa` sera utilisé. S'il n'est pas présent dans le dossier **data/**, il y sera téléchargé depuis l'url figurant dans le fichier `122.R_norvegicus.txt`.
   
 ## Tests
 Pour exécuter les tests unitaires et vérifier la robustesse des outils :
